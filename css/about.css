@@ -1,0 +1,18 @@
+.about {
+  max-width: 980px;
+  min-height: 378px;
+  margin: -25px auto 0 auto;
+}
+.about .about-title {
+  text-transform: uppercase;
+  font-family: GillSansReg;
+  font-size: 25px;
+  border-bottom: solid 2px #000000;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.about p {
+  margin-top: 50px;
+  font-family: GillSansReg;
+  font-size: 16px;
+}

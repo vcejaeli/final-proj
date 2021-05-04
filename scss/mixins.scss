@@ -1,0 +1,6 @@
+//background img properties
+@mixin backImgProperties($backImgPos: center, $backImgSize: cover, $backImgRep: no-repeat) {
+    background-position: $backImgPos;
+    background-size: $backImgSize;
+    background-repeat: $backImgRep;
+}

@@ -1,0 +1,27 @@
+.quote-area {
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-area .content {
+  width: 789px;
+}
+.quote-area .content .quote-text {
+  line-height: 22px;
+  font-family: GillSansReg;
+  font-style: italic;
+  color: #ffd140;
+}
+.quote-area .content .author {
+  font-size: 15px;
+  font-family: PTSerif-Reg;
+  color: #ee4367;
+  margin-bottom: 0px;
+}
+.quote-area .content .title {
+  font-family: PTSerif-Reg;
+  color: #a8a8a8;
+  font-size: 10px;
+}

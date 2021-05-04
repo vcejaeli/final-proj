@@ -1,0 +1,37 @@
+.nav-black {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid 2px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-black .logo-black {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000;
+}
+.nav-black .logo-black span {
+  font-size: 20px;
+  font-family: GillSansReg;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: -5px;
+  color: #ee4367;
+}
+.nav-black .links-black {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-black .links-black a {
+  letter-spacing: 2px;
+  font-family: GillSansReg;
+  text-decoration: none;
+  color: #000;
+}
+.nav-black .links-black span {
+  color: #ee4367;
+}

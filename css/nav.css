@@ -1,0 +1,39 @@
+.nav {
+  width: 980px;
+  height: 90px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom: solid 2px #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+}
+.nav .logo span {
+  font-size: 20px;
+  font-family: GillSansReg;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: -5px;
+  color: #ffffff;
+}
+.nav .links {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav .links a {
+  letter-spacing: 2px;
+  font-family: GillSansReg;
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav .links span {
+  color: #ee4367;
+}

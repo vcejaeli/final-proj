@@ -1,0 +1,31 @@
+.galleryThreeHero {
+  background-image: linear-gradient(to bottom, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../assets/images/gallery/3.jpg);
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.galleryThreeHero .galleryThreeTitle {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+.galleryThreeHero .galleryThreeTitle .title-3 {
+  font-size: 300px;
+  font-family: GillSansReg;
+  line-height: 0;
+  color: #08ad69;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+}
+.galleryThreeHero .galleryThreeTitle .title-speech {
+  font-size: 140px;
+  font-family: GillSansReg;
+  line-height: 0;
+  color: #08ad69;
+}

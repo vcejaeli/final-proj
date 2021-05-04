@@ -1,0 +1,77 @@
+footer {
+  height: 455px;
+  background-color: #ee4367;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer .logo {
+  margin: 0 auto;
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+}
+footer .logo span {
+  font-size: 20px;
+  font-family: GillSansReg;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: -5px;
+  color: #ffffff;
+}
+footer .address {
+  color: #ffffff;
+  font-family: GillSansReg;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 40px;
+}
+footer .phone {
+  color: #ffffff;
+  font-family: GillSansReg;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+footer .email {
+  color: #ffffff;
+  font-family: GillSansReg;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+footer .signup {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer .signup input {
+  height: 100%;
+  width: 529px;
+  background-color: #f56b88;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding-left: 15px;
+}
+footer .signup ::placeholder {
+  color: white;
+  opacity: 1;
+}
+footer .signup .button {
+  font-family: GillSansReg;
+  letter-spacing: 2px;
+  height: 100%;
+  width: 167px;
+  background-color: #ffffff;
+  color: #f56b88;
+  text-align: center;
+  padding: 20px 0;
+}

@@ -1,0 +1,51 @@
+.nav {
+  max-width: 980px;
+  height: 90px;
+  //black
+  margin: 0 auto;
+  margin-bottom: 10px;
+  //white nav
+  // position: fixed;
+  // left: 50%;
+  // transform: translate(-50%, 0);
+
+  border-bottom: solid 2px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //MAYBE DELETE THIS IF ERRORS OCCUR 
+  // padding-bottom: 50px;
+
+  .logo {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: solid 2px #000;
+
+    span {
+      font-size: 20px;
+      font-family: GillSansReg;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: -5px;
+      color: #cfcfcf;
+    }
+  }
+
+  .links {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      letter-spacing: 2px;
+      font-family: GillSansReg;
+      text-decoration: none;
+      color: #cfcfcf;
+    }
+
+    span {
+      color: #ee4367;
+    }
+  }
+}

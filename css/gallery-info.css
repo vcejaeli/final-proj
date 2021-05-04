@@ -1,0 +1,20 @@
+.gallery-info {
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.gallery-info .row {
+  display: flex;
+}
+.gallery-info .row .column {
+  flex: 2;
+  padding: 50px;
+  font-size: 16px;
+  font-family: GillSansReg;
+}
+
+@media (max-width: 750px) {
+  .column {
+    flex: 1;
+  }
+}

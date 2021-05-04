@@ -1,0 +1,63 @@
+.upcoming-events {
+  background-color: #540d6e;
+  height: 320px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+.upcoming-events .title {
+  margin-top: -30px;
+  height: 35px;
+  width: 392px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 50px;
+}
+.upcoming-events .title h1 {
+  font-family: GillSansReg;
+  letter-spacing: 2px;
+}
+.upcoming-events .events {
+  height: 124px;
+  margin-top: -120px;
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming-events .events .event {
+  width: 210px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming-events .events .event .date {
+  width: 60px;
+  height: 60px;
+  background-color: #ee4367;
+  display: flex;
+  flex-direction: column;
+}
+.upcoming-events .events .event .date .number {
+  margin: 0 auto;
+  font-family: GillSansReg;
+  font-size: 22px;
+  padding-top: 5px;
+}
+.upcoming-events .events .event .date .date {
+  align-items: center;
+  justify-content: center;
+  font-family: GillSansReg;
+  font-size: 12px;
+}
+.upcoming-events .events .event .event-detail {
+  font-family: GillSansReg;
+  width: 140px;
+}
+.upcoming-events .events .event .event-detail .highlight {
+  font-size: 15px;
+  color: #ffffff;
+}
+.upcoming-events .events .event .event-detail .details {
+  font-size: 13px;
+  color: #ee4367;
+}

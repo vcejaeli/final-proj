@@ -1,0 +1,31 @@
+.galleryTwoHero {
+  background-image: linear-gradient(to bottom, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../assets/images/gallery/2.jpeg);
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.galleryTwoHero .galleryTwoTitle {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+.galleryTwoHero .galleryTwoTitle .title-2 {
+  font-size: 300px;
+  font-family: GillSansReg;
+  line-height: 0;
+  color: #ee4367;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+}
+.galleryTwoHero .galleryTwoTitle .title-dj {
+  font-size: 140px;
+  font-family: GillSansReg;
+  line-height: 0;
+  color: #ee4367;
+}
